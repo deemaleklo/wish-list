@@ -5,6 +5,7 @@
         <element attributes="encode_utf8=false" label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="u_display_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="300" name="u_test" read_only="true" type="string"/>
         <index name="index">
             <element name="requestor"/>
         </index>
